@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.bg {
+  position: relative;
+  width: 83%;
+  height: 210px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom: 1px solid #dad6d6;
+  text-align: center;
+}
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/photo-1541462608143-67571c6738dd.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  z-index: 1;
+}
+.bg-logo {
+  margin-top: 10px;
+}
+.bg-logo img {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+.bg-pt2 {
+  vertical-align: middle;
+}
+.bg-pt2 div h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #313433;
+}
+.bg-pt2 div {
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+  margin: 8px 55px 8px 55px;
+}
+.icons img {
+  margin-right: 18px;
+  cursor: pointer;
+}
+.bg-pt2-btn button {
+  background-color: rgba(255, 255, 255, 0);
+  width: 140px;
+  height: 30px;
+  border: 1px solid #0d6db7;
+  border-radius: 15px;
+  color: #0d6db7;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 2;
+  position: relative;
+}
+.bg-pt2-btn button:hover {
+  background-color: white;
+}
+.bg-pt3 {
+  color: #626263;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+}
+.bg-pt4 {
+  text-align: center;
+  margin-top: 18px;
+  z-index: 2;
+  position: relative;
+}
+.bg-pt4 button {
+  border: none;
+  height: 40px;
+  width: 130px;
+  border: 1px solid #dad6d6;
+  background-color: #fafafad3;
+  cursor: pointer;
+}
+.bg-pt4 button a {
+  text-decoration: none;
+  color: #0d6db7;
+  font-weight: 500;
+}
+.index-btn {
+  background-color: #ffffff !important;
+}
+.index-btn a {
+  color: #8dc63f !important;
+}
+form {
+  margin: 40px 0px 40px 180px;
+}
+.sec-1,
+.sec-2,
+.sec-3,
+.sec-4,
+.sec-5,
+.sec-6,
+.sec-7,
+.sec-8 {
+  margin-top: 15px;
+}
+.sec-1 div,
+.sec-2 div,
+.sec-3 div,
+.sec-4 div,
+.sec-5 div,
+.sec-6 div,
+.sec-8 div {
+  display: inline-block;
+}
+.sec-7 div {
+  margin-top: 15px;
+}
+.sec-1 label,
+.sec-2 label,
+.sec-3 label,
+.sec-4 label,
+.sec-5 label,
+.sec-6 label,
+.sec-7 label,
+.sec-8 label {
+  color: #0d6fbc;
+  font-size: 0.87rem;
+  font-weight: 450;
+}
+.sec-7 input[type="text"],
+.sec-7 select {
+  width: 1120px !important;
+}
+.sec-1 select,
+.sec-2 select,
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+.sec-6 select,
+.sec-7 select {
+  width: 550px;
+  height: 50px;
+  margin: 5px 15px 5px 0px;
+  border: 1px solid #8dc63f;
+  border-radius: 5px;
+  padding: 10px;
+}
+.sec-1 select:hover,
+.sec-2 select:hover,
+.sec-6 select:hover,
+.sec-7 select:hover,
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover,
+input[type="date"]:hover {
+  border: 1px solid #9fd4ff;
+}
+.sec-1 select:focus,
+.sec-2 select:focus,
+.sec-6 select:focus,
+.sec-7 select:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+  outline: #0d6fbc;
+  border: 1px solid #0d6fbc;
+}
+.sec-8 div p {
+  font-size: 12px;
+  margin: 0px 15px;
+  line-height: 16px;
+}
+.img-btn {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: #fafafa;
+  border: 1px dashed #dad6d6;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding-top: 25px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.img-btn input[type="file"] {
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  transform: scale(5);
+  opacity: 0;
+}
+.img-btn:hover {
+  border: 1px dashed #0d6fbc;
+}
+.line {
+  width: 1125px;
+  margin: 40px 0px 40px 0px;
+  border: 1px solid #dad6d6;
+}
+.info {
+  width: 1125px;
+  font-size: 14px;
+  line-height: 22px;
+}
+input[type="submit"] {
+  width: 1120px;
+  height: 40px;
+  background-color: #0d6db7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
